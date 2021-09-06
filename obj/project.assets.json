@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/annelarimer/Desktop/Source/Repos/MIS321/321pa1/BigAl.csproj",
+      "projectUniqueName": "/Users/annelarimer/Desktop/Source/Repos/MIS321/321pa1 - bigAl/BigAl.csproj",
       "projectName": "BigAl",
-      "projectPath": "/Users/annelarimer/Desktop/Source/Repos/MIS321/321pa1/BigAl.csproj",
+      "projectPath": "/Users/annelarimer/Desktop/Source/Repos/MIS321/321pa1 - bigAl/BigAl.csproj",
       "packagesPath": "/Users/annelarimer/.nuget/packages/",
-      "outputPath": "/Users/annelarimer/Desktop/Source/Repos/MIS321/321pa1/obj/",
+      "outputPath": "/Users/annelarimer/Desktop/Source/Repos/MIS321/321pa1 - bigAl/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/annelarimer/.nuget/NuGet/NuGet.Config"

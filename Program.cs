@@ -41,6 +41,7 @@ namespace BigAl
             System.Console.WriteLine("Please enter the post's text:");
             string postText = Console.ReadLine();
             bigAlPosts.Add(new Post{PostID = Guid.NewGuid(), PostText = postText, PostTime = DateTime.Now, Deleted = false});
+            System.Console.WriteLine("Post was added.");
             PostUtils.SortFile(bigAlPosts);
         }
         static void DeletePost(List<Post> bigAlPosts) {
