@@ -7,7 +7,8 @@
     <title>Big Al Goes Social</title>
     <link rel="stylesheet" href="./resources/css/index.css">
 </head>
-<body>
+<body onload = "handleOnLoad()">
+    <script type="test/javascript" src="./resources/scripts/index.js"></script>
     <!-- Navbar Section -->
     <nav class="navbar">
         <ul>
@@ -32,22 +33,12 @@
         <p class="bold">Big Al's 321 Social Media</p>
     </div>
 
-    <form action="">
-        <input type="text"/>
-        <input type="submit"/>
+    <form method = "POST" onsubmit = "return false;">
+        <input id="post" type="text"/>
+        <input type="submit" onclick = "handleOnSubmit"/>
     </form>
     <div id="greets">
-        <ul>
-            <li>
-                <div class="avatar"></div><span>Hey this is Big Al</span>
-            </li>
-            <li>
-                <div class="avatar"></div><span>Roll Tide!</span>
-            </li>
-            <li>
-                <div class="avatar"></div><span>Natty Champs!!!</span>
-            </li>
-        </ul>
+        
     </div>
 </body>
 </html>
